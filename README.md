@@ -1,4 +1,3 @@
-<!--
 JavaScript Digital Clock Lab
 
 Level: Beginner
@@ -118,4 +117,3 @@ Implement JavaScript Clock functions:
 
 	d. Right click on the index.html file and select "Open in Browser" to see your clock running.
 
--->
