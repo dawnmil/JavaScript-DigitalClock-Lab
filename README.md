@@ -109,7 +109,7 @@ JavaScript Implementation:  Follow the below steps to build out your functional 
 	a. In the startMyDigitalClock function, add the following line of code:
 
 		window.setInterval(startMyDigitalClock, 1000);
-		//Tells the system to run the startMyDigitalClock function every 1000ms (1s)
+		//Tells the window to refresh using the startMyDigitalClock function every 1000ms (1s)
 
 	b. In the index.html, add to the opening body tag:
 
