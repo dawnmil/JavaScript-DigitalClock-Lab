@@ -16,11 +16,11 @@ Set-up:  Follow the below steps to set up your html page
 2. Create a new folder named "js", and in that folder create a file named "myClock.js".
 
 3. In your newly created html file, begin typing <html until you see a pop-up "html" and press Enter.
-4. After the <head> tag, create a reference to myClock.js, as seen below:
+4. After the opening head tag, create a reference to myClock.js, as seen below:
 	
 			<script type="text/javascript" src="js/myClock.js"></script>
 
-5. After the <body> tag, create a div tag with "clock" as its id, as seen below:
+5. After the opening body tag, create a div tag with "clock" as its id, as seen below:
 
 			<div id="clock"></div>
 
