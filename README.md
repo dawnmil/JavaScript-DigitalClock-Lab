@@ -53,8 +53,8 @@ JavaScript Implementation:  Follow the below steps to build out your functional 
 	a. Create a new function, checkMeridiem, that will take one input argument, the current hour. In the statements, we check the value passed in and return either AM or PM. See below for how we use the if/else statment for this.
 
 			function meridiemCheck(i) {
-				if (i < 12) { return "AM" }
-					else { return "PM" }
+				if (i < 12) { return "AM"; }
+					else { return "PM"; }
 			}
 
 	b.  In the startMyDigitalClock function, add another variable for the meridiem. Set this equal to a call to the meridiemCheck taking the current hours reference we created in step 1c.
