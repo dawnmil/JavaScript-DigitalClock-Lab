@@ -10,7 +10,8 @@ Tools Required: Sublime Text Editor, Google Chrome
 Description: This lab will use concepts covered in the Introduction to JavaScript workshop including variables, functions, strings, etc. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. Tip: Save your work often.
 
 
-Set-up:
+Set-up:  Follow the below steps to set up your html page
+
 1. Open Sublime Text and create a new file named "index.html".
 2. Create a new folder named "js", and in that folder create a file named "myClock.js".
 
@@ -26,7 +27,8 @@ Set-up:
 6. Save.
 
 
-Implement JavaScript Clock functions:
+JavaScript Implementation:  Follow the below steps to build out your functional clock
+
 1. First, we need a function that will start the clock time every time we open the page. Follow the below steps. If needed, you can see how this is done further below.
 
 	a. In myClock.js, create a function called "startMyDigitalClock" which takes no arguments. 
