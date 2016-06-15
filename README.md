@@ -13,18 +13,18 @@ Description: This lab will use concepts covered in the Introduction to JavaScrip
 Set-up:  Follow the below steps to set up your html page
 
 1. Open Sublime Text and create a new file named "index.html".
-2. Create a new folder named "js", and in that folder create a file named "myClock.js".
 
-3. In your newly created html file, begin typing <html until you see a pop-up "html" and press Enter.
-4. After the opening head tag, create a reference to myClock.js, as seen below:
+2. In your newly created html file, begin typing <html until you see a pop-up "html" and press Enter.
+3. After the opening head tag, create a reference to myClock.js, as seen below:
 	
 			<script type="text/javascript" src="js/myClock.js"></script>
 
-5. After the opening body tag, create a div tag with "clock" as its id, as seen below:
+4. After the opening body tag, create a div tag with "clock" as its id, as seen below:
 
 			<div id="clock"></div>
+5. Create a new folder named "js", and in that folder create a file named "myClock.js".
 
-6. Save.
+6. Save index.html and myClock.js.
 
 
 JavaScript Implementation:  Follow the below steps to build out your functional clock
