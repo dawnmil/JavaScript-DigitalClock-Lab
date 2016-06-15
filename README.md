@@ -29,7 +29,7 @@ Set-up:  Follow the below steps to set up your html page
 
 JavaScript Implementation:  Follow the below steps to build out your functional clock
 
-1. First, we need a function that will start the clock time every time we open the page. Follow the below steps. If needed, you can see how this is done further below.
+1. First, we need a function that will start the clock time every time we open the page. Follow the below steps.
 
 	a. In myClock.js, create a function called "startMyDigitalClock" which takes no arguments. 
 	b. In the startTime function statements block, create a variable called "today", and set it equal to a new instance of Date, represented by "new Date()".
