@@ -97,7 +97,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 4. To have the clock displayed in the 00:00:00 AM format we expect,
 
 	a. Create a function, displayClock, which takes 4 input arguments to represent the hour, minute, second, and meridiem.
-	In the implementation, we need a reference to the div we created in Set-up step 5.
+	In the implementation, we need a reference to the div we created in Set-up step 4.
 
 		function displayClock(hour, min, sec, amPM) {
 		var clockDiv = document.getElementById('clock');
