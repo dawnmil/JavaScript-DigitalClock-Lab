@@ -127,7 +127,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 1. DEPLOY: Right click on the index.html file and select 'Open in Browser' to see your clock running.
 
-2. DEBUG: It is very common that we have missed a step, have a spelling error, have issue with syntax, or have errors in our overall implementation. If your clock is not appearing as expected, this is a great opportunity to learn how to DEBUG YOUR CODE. Follow these steps to debug:
+2. DEBUG: It is very common that we have missed a step, have a spelling error, have issue with syntax, or have errors in our overall implementation. If your clock is not appearing as expected, this is a great opportunity to learn how to *debug your code*. Follow these steps to debug:
 	
 	a. In your Chrome browser, right click anywhere in the window and select 'Inspect'.
 
