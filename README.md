@@ -20,6 +20,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 1. Open Sublime Text and create a new file named "index.html".
 
 2. In your newly created html file, begin typing <html until you see a pop-up "html" and press Enter.
+
 3. After the opening head tag, create a reference to myClock.js, as seen below:
 	
 			<script type="text/javascript" src="js/myClock.js"></script>
@@ -50,7 +51,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 			var currentHours = today.getHours();  
 			//date hours are given as 0 - 24
-			
+
 
 2. To format a 12-hour clock,
 
@@ -135,7 +136,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 		Uncaught ReferenceError: hours is not defined  myClock.js:13 
 	
 		//Based on the error shown above, I can assume that I have a reference, 'hours', 
-		// presented at line 13 in myClock.js'hours' that has not been declared as a variable
+		// provided at line 13 in myClock.js that has not been declared as a variable
 		// before this line.
 
 3. To make your clock look a bit flashier than the straight text, we can create a new file, prettifyMyClock.css. Since this is a JavaScript course, you can try out the CSS I created just for fun: 
@@ -175,9 +176,9 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 https://github.com/dawnmil/JavaScript-DigitalClock-Lab/blob/master/style/prettifyMyClock.css 
 
-	You may also copy the CSS from the above location into your .css file. 
+You may also copy the CSS from the above location into your .css file. 
 
-	Save. Deploy. Enjoy!
+Save. Deploy. Enjoy!
 
 
 ######More Practice with JS:
