@@ -25,7 +25,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 	c. Double click into your 'dev' folder.
 
-	d. Right click anywhere in the folder, select 'New Folder'. Name this folder 'JavaScript-DigitalClock-Lab'.
+	d. Right click anywhere in the folder, select 'New Folder'. Name this folder 'JavaScript-DigitalClock-Lab'. This is your project folder for today's lab where you will be saving all of your work.
 
 2. Open Sublime Text and create a new file named 'index.html'.
 
@@ -45,9 +45,12 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 			<div id="clock"></div>
 
-6. Create a new folder named "js", and in that folder create a file named "myClock.js".
+6. Save the changes you have made in index.html. (Ctrl+S or File>Save)
 
-7. Save index.html and myClock.js.
+6. Create a new folder within your project folder named 'js'.
+
+7. In Sublime Text, create a new file inside your newly created 'js' folder named "myClock.js".
+
 
 
 #####JavaScript Implementation:  Follow the below steps to build out your functional clock
@@ -79,7 +82,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 					else { return "PM"; }
 			}
 
-	b.  In the startMyDigitalClock function, add another variable for the meridiem. Set this equal to a call to the meridiemCheck taking the current hours reference we created in step 1c.
+	b.  In the startMyDigitalClock function, add another variable for the meridiem. Set this equal to a call to the meridiemCheck taking the current hours reference we created in Implementation step 1c.
 
 			var meridiem = meridiemCheck(currentHours);
 
