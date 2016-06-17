@@ -59,9 +59,9 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 	a. In myClock.js, create a function called "startMyDigitalClock" which takes no arguments.
 
-	b. In the startTime function statements block, create a variable called "today", and set it equal to a new instance of Date, represented by "new Date()".
+	b. In the startMyDigitalClock function statements block, create a variable called "today", and set it equal to a new instance of Date, represented by "new Date()".
 
-	Since we are providing no arguments, new Date() creates a JavaScript Date object for the current date and time according to the time known to the computer where the JavaScript is executed. All Date instances inherit properties and methods from Date.prototype. We will use these methods and properties to build out our startTime function.
+	Since we are providing no arguments, new Date() creates a JavaScript Date object for the current date and time according to the time known to the computer where the JavaScript is executed. All Date instances inherit properties and methods from Date.prototype. We will use these methods and properties to build out our startMyDigitalClock function.
 
 			function startMyDigitalClock() {
 				var today = new Date(); 
