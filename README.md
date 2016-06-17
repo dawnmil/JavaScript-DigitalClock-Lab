@@ -41,11 +41,10 @@ Tip: Save your work often.
 
 	Since we are providing no arguments, new Date() creates a JavaScript Date object for the current date and time according to the time known to the computer where the JavaScript is executed. All Date instances inherit properties and methods from Date.prototype. We will use these methods and properties to build out our startTime function.
 
-'''javascript
-function startMyDigitalClock() {
+			function startMyDigitalClock() {
 				var today = new Date(); 
-}
-'''
+			}
+
 	c. In the startMyDigitalClock function, make three variables to hold the current hours, minutes, and seconds. Use the getter methods of Date on the object we created. Below shows how this is done for hours.
 
 			var currentHours = today.getHours();  
