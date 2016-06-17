@@ -1,4 +1,4 @@
-<h1>JavaScript Digital Clock Lab</h1>
+#JavaScript Digital Clock Lab
 
 Level: Beginner
 
@@ -10,12 +10,12 @@ Author/Instructor: Dawn Milnamow
 Tools Required: *Sublime Text Editor, Google Chrome*
 
 
-Description: This lab will use concepts covered in the Introduction to JavaScript workshop including variables, functions, strings, etc. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. 
+**Description:** This lab will use concepts covered in the Introduction to JavaScript workshop including variables, functions, strings, etc. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. 
 
-Tip: Save your work often.
+*Tip: Save your work often.*
 
 
-<u>Set-up</u>:  Follow the below steps to set up your html page
+##Set-up:  Follow the below steps to set up your Sublime Text environment
 
 1. Open Sublime Text and create a new file named "index.html".
 
@@ -27,12 +27,13 @@ Tip: Save your work often.
 4. After the opening body tag, create a div tag with "clock" as its id, as seen below:
 
 			<div id="clock"></div>
+
 5. Create a new folder named "js", and in that folder create a file named "myClock.js".
 
 6. Save index.html and myClock.js.
 
 
-<u>JavaScript Implementation</u>:  Follow the below steps to build out your functional clock
+**JavaScript Implementation:**  Follow the below steps to build out your functional clock
 
 1. First, we need a function that will start the clock time every time we open the page. Follow the below steps.
 
@@ -122,7 +123,7 @@ Tip: Save your work often.
 	c. Ensure all files are saved. 
 
 
-<u>Deploy, Debug, and Prettification!</u>:
+**Deploy, Debug, and Prettification!:**
 
 1. Right click on the index.html file and select 'Open in Browser' to see your clock running.
 
@@ -138,14 +139,49 @@ Tip: Save your work often.
 		// presented at line 13 in myClock.js'hours' that has not been declared as a variable
 		// before this line.
 
-3. To make your clock look a bit flashier than the straight text, we can create a new file, prettifyMyClock.css. Since this is a JavaScript course, you can check out some CSS I created just for fun: 
+3. To make your clock look a bit flashier than the straight text, we can create a new file, prettifyMyClock.css. Since this is a JavaScript course, you can try out the CSS I created just for fun: 
+
+			body {
+    			background-color: white;
+			}
+
+			/#clock {
+			    height: 500px;
+			    width: 800px;
+			    margin: auto;
+			    position: absolute;
+			    top: 0; left: 0; bottom: 0; right: 0;
+			    font-family: courier, monospace;
+			    text-align: center;
+			    color: #000066;
+			    font-size: 100px;
+			    font-weight: bold;
+			}
+
+			/@keyframes animatedBackground {
+			    from { background-position: 0 0; }
+			    to { background-position: 100% 0; }
+			}
+
+			/#animate-area   { 
+    			width: 100%; 
+   				height: 400px; 
+    			background-image: url(http://jqueryplugin.net/wp-content/uploads/2014/07/Cute-Moving-Cloud-animation-with-blue-background-using-css.jpg);
+    			background-position: 0px 0px;
+    			background-repeat: repeat-x;
+
+   				animation: animatedBackground 40s linear infinite;
+			}
+
 
 https://github.com/dawnmil/JavaScript-DigitalClock-Lab/blob/master/style/prettifyMyClock.css 
 
-	Copy the CSS from the above location into your .css file. Save. Deploy. Enjoy!
+	You may also copy the CSS from the above location into your .css file. 
+
+	Save. Deploy. Enjoy!
 
 
-<u>More Practice with JS</u>:
+**More Practice with JS:**
 
 I hope you enjoyed learning the basics of JavaScript. Here are some ways you can continue learning JavaScript after today:
 
