@@ -10,7 +10,7 @@ Author/Instructor: Dawn Milnamow
 Tools Required: *Sublime Text Editor, Google Chrome*
 
 
-**Description:** This lab will use concepts covered in the Introduction to JavaScript workshop including variables, functions, strings, etc. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. 
+**Description:** This lab will use concepts covered in the Introduction to JavaScript workshop including variables, operators, strings, objects, and functions. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. 
 
 *Tip: Save your work often.*
 
@@ -89,7 +89,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 	c. Create another function, convertToTwelveHourClock, which takes one input argument, the current hour. Implement this function to return 12 if the current hour is 0, and shows the correct number for hours 13 and higher.
 
 			function convertToTwelveHourClock(i) {
-				if (i == 0) {
+				if (i === 0) {
 					i = 12;
 				} else if (i > 12) {
 					i -= 12;
