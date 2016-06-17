@@ -15,30 +15,47 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 *Tip: Save your work often.*
 
 
-#####Set-up:  Follow the below steps to set up your Sublime Text environment
+#####Set-up:  Follow the below steps to set up your project environment
 
-1. Open Sublime Text and create a new file named "index.html".
+1. First, we need a folder location on our Desktop that we can save all of our dev projects. Create a folder called 'dev'. Inside this folder, create a folder for this project called 'JavaScript-DigitalClock-Lab'.
+	
+	a. To create a new folder: Right click somewhere on your Desktop, select 'New Folder'.
 
-2. In your newly created html file, begin typing <html until you see a pop-up "html" and press Enter.
+	b. Type the name of your new folder, 'dev'.
 
-3. After the opening head tag, create a reference to myClock.js, as seen below:
+	c. Double click into your 'dev' folder.
+
+	d. Right click anywhere in the folder, select 'New Folder'. Name this folder 'JavaScript-DigitalClock-Lab'.
+
+2. Open Sublime Text and create a new file named 'index.html'.
+
+	a. Click File, select 'New File'.
+
+	b. Click File, select 'Save As...'
+
+	c. Type 'index.html' into the file name. Select the project folder you created in step 1. Click 'Save'. Note: If you cannot find the folder while initially trying to save, that is okay. Save it to another location where you can find the file. Open the 'JavaScript-DigitalClock-Lab' folder in another window and then click and drag the file into that folder.
+
+3. In your newly created html file, begin typing <html until you see a pop-up "html" and press Enter.
+
+4. After the opening head tag, create a reference to myClock.js, as seen below:
 	
 			<script type="text/javascript" src="js/myClock.js"></script>
 
-4. After the opening body tag, create a div tag with "clock" as its id, as seen below:
+5. After the opening body tag, create a div tag with "clock" as its id, as seen below:
 
 			<div id="clock"></div>
 
-5. Create a new folder named "js", and in that folder create a file named "myClock.js".
+6. Create a new folder named "js", and in that folder create a file named "myClock.js".
 
-6. Save index.html and myClock.js.
+7. Save index.html and myClock.js.
 
 
 #####JavaScript Implementation:  Follow the below steps to build out your functional clock
 
-1. First, we need a function that will start the clock time every time we open the page. Follow the below steps.
+1. First, we need a function that will start the clock time every time we open the page. 
 
-	a. In myClock.js, create a function called "startMyDigitalClock" which takes no arguments. 
+	a. In myClock.js, create a function called "startMyDigitalClock" which takes no arguments.
+
 	b. In the startTime function statements block, create a variable called "today", and set it equal to a new instance of Date, represented by "new Date()".
 
 	Since we are providing no arguments, new Date() creates a JavaScript Date object for the current date and time according to the time known to the computer where the JavaScript is executed. All Date instances inherit properties and methods from Date.prototype. We will use these methods and properties to build out our startTime function.
@@ -97,7 +114,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 4. To have the clock displayed in the 00:00:00 AM format we expect,
 
 	a. Create a function, displayClock, which takes 4 input arguments to represent the hour, minute, second, and meridiem.
-	In the implementation, we need a reference to the div we created in Set-up step 4.
+	In the implementation, we need a reference to the div we created in Set-up step 5.
 
 		function displayClock(hour, min, sec, amPM) {
 		var clockDiv = document.getElementById('clock');
