@@ -15,7 +15,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 *Tip: Save your work often.*
 
 
-####Set-up:  Follow the below steps to set up your Sublime Text environment
+#####Set-up:  Follow the below steps to set up your Sublime Text environment
 
 1. Open Sublime Text and create a new file named "index.html".
 
@@ -33,7 +33,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 6. Save index.html and myClock.js.
 
 
-**JavaScript Implementation:**  Follow the below steps to build out your functional clock
+#####JavaScript Implementation:  Follow the below steps to build out your functional clock
 
 1. First, we need a function that will start the clock time every time we open the page. Follow the below steps.
 
@@ -123,7 +123,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 	c. Ensure all files are saved. 
 
 
-**Deploy, Debug, and Prettification!:**
+#####Deploy, Debug, and Prettification!:
 
 1. Right click on the index.html file and select 'Open in Browser' to see your clock running.
 
@@ -181,7 +181,7 @@ https://github.com/dawnmil/JavaScript-DigitalClock-Lab/blob/master/style/prettif
 	Save. Deploy. Enjoy!
 
 
-**More Practice with JS:**
+######More Practice with JS:
 
 I hope you enjoyed learning the basics of JavaScript. Here are some ways you can continue learning JavaScript after today:
 
