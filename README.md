@@ -145,7 +145,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
     			background-color: white;
 			}
 
-			/#clock {
+			#clock {
 			    height: 500px;
 			    width: 800px;
 			    margin: auto;
@@ -158,12 +158,12 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 			    font-weight: bold;
 			}
 
-			/@keyframes animatedBackground {
+			@keyframes animatedBackground {
 			    from { background-position: 0 0; }
 			    to { background-position: 100% 0; }
 			}
 
-			/#animate-area   { 
+			#animate-area   { 
     			width: 100%; 
    				height: 400px; 
     			background-image: url(http://jqueryplugin.net/wp-content/uploads/2014/07/Cute-Moving-Cloud-animation-with-blue-background-using-css.jpg);
@@ -174,11 +174,10 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 			}
 
 
+The above code can be copied from the following location as well: 
 https://github.com/dawnmil/JavaScript-DigitalClock-Lab/blob/master/style/prettifyMyClock.css 
 
-You may also copy the CSS from the above location into your .css file. 
 
-Save. Deploy. Enjoy!
 
 
 ######More Practice with JS:
