@@ -50,8 +50,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 			var currentHours = today.getHours();  
 			//date hours are given as 0 - 24
-
-	d. Add another variable for the meridiem. We will set this equal to a function called meridiemCheck which takes one argument, the current hour. We will implement this function outside of the startMyDigitalClock function.
+			
 
 2. To format a 12-hour clock,
 
