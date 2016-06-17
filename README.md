@@ -7,7 +7,7 @@ Created: June 15, 2016
 Author/Instructor: Dawn Milnamow
 
 
-<u>Tools Required</u>: Sublime Text Editor, Google Chrome
+Tools Required: *Sublime Text Editor, Google Chrome*
 
 
 Description: This lab will use concepts covered in the Introduction to JavaScript workshop including variables, functions, strings, etc. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. Tip: Save your work often.
@@ -137,54 +137,24 @@ Description: This lab will use concepts covered in the Introduction to JavaScrip
 		// presented at line 13 in myClock.js'hours' that has not been declared as a variable
 		// before this line.
 
-3. To make your clock look a bit flashier than the straight text, we can create a new file, prettifyMyClock.css. Since this is a JavaScript course, I will provide some non-expert CSS code that I created just for fun. Paste the below into your .css file. Save. Deploy. Have fun!
+3. To make your clock look a bit flashier than the straight text, we can create a new file, prettifyMyClock.css. Since this is a JavaScript course, you can check out some CSS I created just for fun: 
+
+https://github.com/dawnmil/JavaScript-DigitalClock-Lab/blob/master/style/prettifyMyClock.css 
+
+	Copy the CSS from the above location into your .css file. Save. Deploy. Enjoy!
 
 
-body {
-    background-color: white;
-}
+<u>More Practice with JS</u>:
 
-#clock {
-    height: 500px;
-    width: 800px;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    /*padding-top: 70px;*/
-    font-family: courier, monospace;
-    text-align: center;
-    color: #000066;
-    font-size: 100px;
-    font-weight: bold;
-}
+I hope you enjoyed learning the basics of JavaScript. Here are some ways you can continue learning JavaScript after today:
 
-@keyframes animatedBackground {
-    from { background-position: 0 0; }
-    to { background-position: 100% 0; }
-}
-
-#animate-area { 
-    width: 100%; 
-    height: 400px; 
-    background-image: url(http://jqueryplugin.net/wp-content/uploads/2014/07/Cute-Moving-Cloud-animation-with-blue-background-using-css.jpg);
-    background-position: 0px 0px;
-    background-repeat: repeat-x;
-
-    animation: animatedBackground 40s linear infinite;
-}
-
-
-<u>More Practice</u>:
-
-I hope you enjoyed learning the basics of JavaScript. Here are some ideas of how you can go forward with getting practice with JavaScript:
-
-1. Add to your clock. One ways you can practice is simply by expanding upon today's lab. Try adding additional clocks in various time zones, clocks with other date formats, a stop watch, or an alarm clock.
+1. Add to your clock. One way you can practice is simply by expanding upon today's lab. Try adding additional clocks in various time zones, clocks with other date formats, a stop watch, or an alarm clock.
 
 2. Want more JavaScript? Check out the below JavaScript learning tools:
 
-	a. JS Tutorials at CodeCademy: https://www.codecademy.com/learn/javascript
+	a. Free JS Tutorials at CodeCademy: https://www.codecademy.com/learn/javascript
 
-	b. Animate Drawings using JS at KhanAcademy: https://www.khanacademy.org/computing/computer-programming/programming
+	b. Free Animate Drawings using JS at KhanAcademy: https://www.khanacademy.org/computing/computer-programming/programming
 
-	c. Reccommended Reading: <u>JavaScript: The Good Parts</u>, Douglas Crockford
+	c. Reccommended Reading: *JavaScript: The Good Parts*, Douglas Crockford
 
