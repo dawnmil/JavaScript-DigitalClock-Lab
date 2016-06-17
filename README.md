@@ -176,9 +176,8 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 			}
 
 
-The above code can be copied from the following location as well: 
-
-https://github.com/dawnmil/JavaScript-DigitalClock-Lab/blob/master/style/prettifyMyClock.css 
+The solution to this lab can be found on GitHub:
+https://github.com/dawnmil/JavaScript-DigitalClock-Solution
 
 
 
