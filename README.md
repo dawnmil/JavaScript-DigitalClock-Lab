@@ -129,7 +129,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 2. It is very common that we have missed a step, have a spelling error, have issue with syntax, or have errors in our overall implementation. If your clock is not appearing as expected, this is a great opportunity to learn how to DEBUG YOUR CODE. Follow these steps to debug:
 	
-	a. In your Chrome browser, right click and select 'Inspect'.
+	a. In your Chrome browser, right click anywhere in the window and select 'Inspect'.
 
 	b. Click 'Console'. Here you will see logged errors. An example is provided below:
 
