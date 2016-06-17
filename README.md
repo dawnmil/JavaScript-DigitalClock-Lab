@@ -15,7 +15,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 *Tip: Save your work often.*
 
 
-##Set-up:  Follow the below steps to set up your Sublime Text environment
+####Set-up:  Follow the below steps to set up your Sublime Text environment
 
 1. Open Sublime Text and create a new file named "index.html".
 
