@@ -10,7 +10,9 @@ Author/Instructor: Dawn Milnamow
 Tools Required: *Sublime Text Editor, Google Chrome*
 
 
-Description: This lab will use concepts covered in the Introduction to JavaScript workshop including variables, functions, strings, etc. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. Tip: Save your work often.
+Description: This lab will use concepts covered in the Introduction to JavaScript workshop including variables, functions, strings, etc. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. 
+
+Tip: Save your work often.
 
 
 <u>Set-up</u>:  Follow the below steps to set up your html page
@@ -39,11 +41,11 @@ Description: This lab will use concepts covered in the Introduction to JavaScrip
 
 	Since we are providing no arguments, new Date() creates a JavaScript Date object for the current date and time according to the time known to the computer where the JavaScript is executed. All Date instances inherit properties and methods from Date.prototype. We will use these methods and properties to build out our startTime function.
 
-
+'''javascript
 			function startMyDigitalClock() {
 				var today = new Date(); 
 			}
-
+'''
 	c. In the startMyDigitalClock function, make three variables to hold the current hours, minutes, and seconds. Use the getter methods of Date on the object we created. Below shows how this is done for hours.
 
 			var currentHours = today.getHours();  
