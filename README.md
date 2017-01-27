@@ -138,18 +138,18 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 5. Make the clock tick, 
 
-	a. In the startMyDigitalClock function, add the following line of code:
+	* In the startMyDigitalClock function, add the following line of code:
 ```javascript
 		window.setInterval(startMyDigitalClock, 1000);
 		//Tells the window to refresh using the startMyDigitalClock function every 1000ms (1s)
 ```
 
-	b. In the index.html, add to the opening body tag:
+	* In the index.html, add to the opening body tag:
 ```javascript
 		<body onload="startMyDigitalClock()"> 
 ```
 
-	c. Ensure all files are saved. 
+	* Ensure all files are saved. 
 
 
 #####Deploy, Debug, and Prettification!:
