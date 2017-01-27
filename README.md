@@ -47,11 +47,28 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 6. Save the changes you have made in index.html. (Ctrl+S or File>Save)
 
-6. Create a new folder within your project folder named 'js'.
+7. Create a new folder within your project folder named 'js'.
 
-7. In Sublime Text, create a new file inside your newly created 'js' folder named "myClock.js".
+8. In Sublime Text, create a new file inside your newly created 'js' folder named "myClock.js".
 
 
+####DEPLOY & DEBUG: At any time during this lab, we can check if our code is working and debug within our browser by following the below steps.
+
+1. To deploy, right click on the index.html file and select 'Open in Browser'.
+
+2. Debugging: It is very common that we have missed a step, have a spelling error, have issue with syntax, or have errors in our overall implementation. If your clock is not appearing as expected, this is a great opportunity to learn how to *debug your code*. Follow these steps to debug:
+	
+	a. In your Chrome browser, right click anywhere in the window and select 'Inspect'.
+
+	b. Click 'Console'. Here you will see logged errors. An example is provided below:
+
+		Uncaught ReferenceError: hours is not defined  myClock.js:13 
+	
+		//Based on the example error shown above, I can assume that I have a reference, 'hours', 
+		// provided at line 13 in myClock.js that has not been declared as a variable
+		// before this line.
+
+	c. After editing your code, save then refresh your browser.
 
 #####JavaScript Implementation:  Follow the below steps to build out your functional clock
 
@@ -143,25 +160,11 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 	c. Ensure all files are saved. 
 
 
-#####Deploy, Debug, and Prettification!:
+#####PRETTIFICATION: Just for fun, lets add the below CSS to see how it changes the look and feel of our clock: 
 
-1. DEPLOY: Right click on the index.html file and select 'Open in Browser' to see your clock running.
+1. Create a new file called prettifyMyClock.css
 
-2. DEBUG: It is very common that we have missed a step, have a spelling error, have issue with syntax, or have errors in our overall implementation. If your clock is not appearing as expected, this is a great opportunity to learn how to *debug your code*. Follow these steps to debug:
-	
-	a. In your Chrome browser, right click anywhere in the window and select 'Inspect'.
-
-	b. Click 'Console'. Here you will see logged errors. An example is provided below:
-
-		Uncaught ReferenceError: hours is not defined  myClock.js:13 
-	
-		//Based on the error shown above, I can assume that I have a reference, 'hours', 
-		// provided at line 13 in myClock.js that has not been declared as a variable
-		// before this line.
-
-	c. After editing your code, save then refresh your browser.
-
-3. PRETTIFICATION: To make your clock look a bit flashier than the straight text, we can create a new file, prettifyMyClock.css. Since this is a JavaScript course, you can try out the CSS I created just for fun: 
+2. Copy the below code into the file and save.
 
 			body {
     			background-color: white;
@@ -194,6 +197,11 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
    				animation: animatedBackground 40s linear infinite;
 			}
+
+3. Add the following line to the head of your index.html file and save.
+
+			<link href="./style/prettifyMyClock.css" type="text/css" rel="stylesheet">
+
 
 
 The solution to this lab can be found on GitHub:
