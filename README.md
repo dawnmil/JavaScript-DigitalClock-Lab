@@ -38,9 +38,9 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 3. In your newly created html file, begin typing <html until you see a pop-up "html" and press Enter.
 
 4. After the opening head tag, create a reference to myClock.js, as seen below:
-'''javascript
+	
 			<script type="text/javascript" src="js/myClock.js"></script>
-'''
+
 5. After the opening body tag, create a div tag with "clock" as its id, as seen below:
 
 			<div id="clock"></div>
