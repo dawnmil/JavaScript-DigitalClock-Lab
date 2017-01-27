@@ -10,12 +10,12 @@ Author/Instructor: Dawn Milnamow
 Tools Required: *Sublime Text Editor, Google Chrome*
 
 
-**Description:** This lab will use concepts covered in the Introduction to JavaScript workshop including variables, operators, strings, objects, and functions. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. 
+###**Description:** This lab will use concepts covered in the Introduction to JavaScript workshop including variables, operators, strings, objects, and functions. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. 
 
 *Tip: Save your work often.*
 
 
-#####Set-up:  Follow the below steps to set up your project environment
+###Set-up:  Follow the below steps to set up your project environment
 
 1. First, we need a folder location on our Desktop that we can save all of our dev projects. Create a folder called 'dev'. Inside this folder, create a folder for this project called 'JavaScript-DigitalClock-Lab'.
 	
@@ -52,7 +52,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 8. In Sublime Text, create a new file inside your newly created 'js' folder named "myClock.js".
 
 
-####DEPLOY & DEBUG: At any time during this lab, we can check if our code is working and debug within our browser by following the below steps.
+###DEPLOY & DEBUG: At any time during this lab, we can check if our code is working and debug within our browser by following the below steps.
 
 1. To deploy, right click on the index.html file and select 'Open in Browser'.
 
@@ -70,7 +70,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 	c. After editing your code, save then refresh your browser.
 
-#####JavaScript Implementation:  Follow the below steps to build out your functional clock
+###JavaScript Implementation:  Follow the below steps to build out your functional clock
 
 1. First, we need a function that will start the clock time every time we open the page. 
 
@@ -160,7 +160,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 	c. Ensure all files are saved. 
 
 
-#####PRETTIFICATION: Just for fun, lets add the below CSS to see how it changes the look and feel of our clock: 
+###PRETTIFICATION: Just for fun, lets add the below CSS to see how it changes the look and feel of our clock: 
 
 1. Create a new file called prettifyMyClock.css
 
@@ -210,7 +210,7 @@ https://github.com/dawnmil/JavaScript-DigitalClock-Solution
 
 
 
-######More Practice with JS:
+####More Practice with JS:
 
 I hope you enjoyed learning the basics of JavaScript. Here are some ways you can continue learning JavaScript after today:
 
