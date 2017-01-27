@@ -54,7 +54,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 ###DEPLOY & DEBUG: At any time during this lab, we can check if our code is working and debug within our browser by following the below steps
 
-1. To deploy, right click on the index.html file and select 'Open in Browser'.
+1. To deploy, right click on the index.html file and select 'Open in Browser'. This needs only to be done once. As you save your changes, simply refresh your browser to see the updated code working in your browser.
 
 2. Debugging: It is very common that we have missed a step, have a spelling error, have issue with syntax, or have errors in our overall implementation. If your clock is not appearing as expected, this is a great opportunity to learn how to *debug your code*. Follow these steps to debug:
 	
