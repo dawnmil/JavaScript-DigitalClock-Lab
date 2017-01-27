@@ -67,27 +67,30 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 				var today = new Date(); 
 			}
 ```
-	c. In the startMyDigitalClock function, make three variables to hold the current hours, minutes, and seconds. Use the getter methods of Date on the object we created. Below shows how this is done for hours.
 
+	c. In the startMyDigitalClock function, make three variables to hold the current hours, minutes, and seconds. Use the getter methods of Date on the object we created. Below shows how this is done for hours.
+```javascript
 			var currentHours = today.getHours();  
 			//date hours are given as 0 - 24
-
+```
 
 2. To format a 12-hour clock,
 
 	a. Create a new function, checkMeridiem, that will take one input argument, the current hour. In the statements, we check the value passed in and return either AM or PM. See below for how we use the if/else statment for this.
-
+```javascript
 			function meridiemCheck(i) {
 				if (i < 12) { return "AM"; }
 					else { return "PM"; }
 			}
+```
 
 	b.  In the startMyDigitalClock function, add another variable for the meridiem. Set this equal to a call to the meridiemCheck taking the current hours reference we created in Implementation step 1c.
-
+```javascript
 			var meridiem = meridiemCheck(currentHours);
+```
 
 	c. Create another function, convertToTwelveHourClock, which takes one input argument, the current hour. Implement this function to return 12 if the current hour is 0, and shows the correct number for hours 13 and higher.
-
+```javascript
 			function convertToTwelveHourClock(i) {
 				if (i === 0) {
 					i = 12;
@@ -96,29 +99,32 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 				}
 				return i;
 			}
+```
 
 	d. In the startMyDigitalClock function, reassign the currentHours variable to equal a call to the convertToTwelveHourClock taking currentHours as the input.
 
 3. To add leading zeros to your clock (01, 02, etc.) hours, minutes and seconds,
 	
 	a. Create a new function, leadingZeroCheck, which takes one input argument. Implement this function to add a "0" to any input value less than 10, and return this value.
-
+```javascript
 			function leadingZeroCheck(i) {
 				if (i < 10) {
 					i = "0" + i;
 				}
 				return i;
 			}
+```
 
 	b. In the startMyDigitalClock function, reassign the currentHours, currentMinutes, and currentSeconds reference variables to a call to the leadingZeroCheck. An example for the current minutes is shown below.
-
+```javascript
 			currentMinutes = leadingZeroCheck(currentMinutes);
+```
 
 4. To have the clock displayed in the 00:00:00 AM format we expect,
 
 	a. Create a function, displayClock, which takes 4 input arguments to represent the hour, minute, second, and meridiem.
 	In the implementation, we need a reference to the div we created in Set-up step 5.
-
+```javascript
 		function displayClock(hour, min, sec, amPM) {
 		var clockDiv = document.getElementById('clock');
 		clockDiv.innerHTML = 
@@ -126,19 +132,22 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 		//finish the right side of the equals sign to format 
 		//the display correctly using the input arguments
+```
 
 	b. In the startMyDigitalClock function, make a call to the displayClock function taking the appropriate variable references.
 
 5. Make the clock tick, 
 
 	a. In the startMyDigitalClock function, add the following line of code:
-
+```javascript
 		window.setInterval(startMyDigitalClock, 1000);
 		//Tells the window to refresh using the startMyDigitalClock function every 1000ms (1s)
+```
 
 	b. In the index.html, add to the opening body tag:
-
+```javascript
 		<body onload="startMyDigitalClock()"> 
+```
 
 	c. Ensure all files are saved. 
 
@@ -152,17 +161,18 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 	a. In your Chrome browser, right click anywhere in the window and select 'Inspect'.
 
 	b. Click 'Console'. Here you will see logged errors. An example is provided below:
-
+```javascript
 		Uncaught ReferenceError: hours is not defined  myClock.js:13 
 	
 		//Based on the error shown above, I can assume that I have a reference, 'hours', 
 		// provided at line 13 in myClock.js that has not been declared as a variable
 		// before this line.
+```
 
 	c. After editing your code, save then refresh your browser.
 
 3. PRETTIFICATION: To make your clock look a bit flashier than the straight text, we can create a new file, prettifyMyClock.css. Since this is a JavaScript course, you can try out the CSS I created just for fun: 
-
+```css
 			body {
     			background-color: white;
 			}
@@ -194,7 +204,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
    				animation: animatedBackground 40s linear infinite;
 			}
-
+```
 
 The solution to this lab can be found on GitHub:
 https://github.com/dawnmil/JavaScript-DigitalClock-Solution
