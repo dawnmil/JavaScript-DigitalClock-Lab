@@ -38,9 +38,9 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 3. In your newly created html file, begin typing <html until you see a pop-up "html" and press Enter.
 
 4. After the opening head tag, create a reference to myClock.js, as seen below:
-'''javascript
+
 			<script type="text/javascript" src="js/myClock.js"></script>
-'''
+
 5. After the opening body tag, create a div tag with "clock" as its id, as seen below:
 
 			<div id="clock"></div>
@@ -62,11 +62,11 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 	b. In the startMyDigitalClock function statements block, create a variable called "today", and set it equal to a new instance of Date, represented by "new Date()".
 
 	Since we are providing no arguments, new Date() creates a JavaScript Date object for the current date and time according to the time known to the computer where the JavaScript is executed. All Date instances inherit properties and methods from Date.prototype. We will use these methods and properties to build out our startMyDigitalClock function.
-
+'''javascript
 			function startMyDigitalClock() {
 				var today = new Date(); 
 			}
-
+'''
 	c. In the startMyDigitalClock function, make three variables to hold the current hours, minutes, and seconds. Use the getter methods of Date on the object we created. Below shows how this is done for hours.
 
 			var currentHours = today.getHours();  
