@@ -52,7 +52,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 8. In Sublime Text, create a new file inside your newly created 'js' folder named "myClock.js".
 
 
-###DEPLOY & DEBUG: At any time during this lab, we can check if our code is working and debug within our browser by following the below steps.
+###DEPLOY & DEBUG: At any time during this lab, we can check if our code is working and debug within our browser by following the below steps
 
 1. To deploy, right click on the index.html file and select 'Open in Browser'.
 
@@ -160,7 +160,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 	c. Ensure all files are saved. 
 
 
-###PRETTIFICATION: Just for fun, lets add the below CSS to see how it changes the look and feel of our clock: 
+###PRETTIFICATION: Just for fun, lets add the below CSS to see how it changes the look and feel of our clock
 
 1. Create a new file called prettifyMyClock.css
 
