@@ -33,7 +33,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 	b. Click File, select 'Save As...'
 
-	c. Type 'index.html' into the file name. Select the project folder you created in step 1. Click 'Save'. Note: If you cannot find the folder while initially trying to save, that is okay. Save it to another location where you can find the file. Open the 'JavaScript-DigitalClock-Lab' folder in another window and then click and drag the file into that folder.
+	c. Type 'index.html' into the file name. Select the project folder you created in step 1. Click 'Save'. Note: If you cannot find the folder while initially trying to save, that is okay. Save it to the Desktop or another location where you can find the file. Open the 'JavaScript-DigitalClock-Lab' folder in another window and then click and drag the file into that folder.
 
 3. In your newly created html file, begin typing <html until you see a pop-up "html" and press Enter.
 
@@ -45,11 +45,15 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 
 			<div id="clock"></div>
 
-6. Save the changes you have made in index.html. (Ctrl+S or File>Save)
+6. Within the opening body tag, we will call a function we will soon implement called 'startMyDigitalClock' as seen below:
 
-7. Create a new folder within your project folder named 'js'.
+		<body onload="startMyDigitalClock()"> 
 
-8. In Sublime Text, create a new file inside your newly created 'js' folder named "myClock.js".
+7. Save the changes you have made in index.html. (Ctrl+S or File>Save)
+
+8. Create a new folder within your project folder named 'js'.
+
+9. In Sublime Text, create a new file inside your newly created 'js' folder named "myClock.js".
 
 
 ###DEPLOY & DEBUG: At any time during this lab, we can check if our code is working and debug within our browser by following the below steps
@@ -154,11 +158,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 		window.setInterval(startMyDigitalClock, 1000);
 		//Tells the window to refresh using the startMyDigitalClock function every 1000ms (1s)
 
-	b. In the index.html, add to the opening body tag:
-
-		<body onload="startMyDigitalClock()"> 
-
-	c. Ensure all files are saved. 
+	b. Ensure all files are saved. 
 
 
 ###PRETTIFICATION: Just for fun, lets add the below CSS to see how it changes the look and feel of our clock
@@ -192,7 +192,7 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 			#animate-area   { 
     			width: 100%; 
    				height: 400px; 
-    			background-image: url(http://jqueryplugin.net/wp-content/uploads/2014/07/Cute-Moving-Cloud-animation-with-blue-background-using-css.jpg);
+    			background-image: url(/images/clouds.jpeg);
     			background-position: 0px 0px;
     			background-repeat: repeat-x;
 
