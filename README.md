@@ -7,54 +7,12 @@ Created: June 15, 2016
 Author/Instructor: Dawn Milnamow
 
 
-Tools Required: *Sublime Text Editor, Google Chrome*
+Tools Required: *Any Text Editor, Google Chrome*
 
 
 ###**Description:** This lab will use concepts covered in the Introduction to JavaScript workshop including variables, operators, strings, objects, and functions. By completing this lab, you will have a fully functioning digital clock running from a html page in your Chrome Browser. 
 
 *Tip: Save your work often.*
-
-
-###Set-up:  Follow the below steps to set up your project environment
-
-1. First, we need a folder location on our Desktop that we can save all of our dev projects. Create a folder called 'dev'. Inside this folder, create a folder for this project called 'JavaScript-DigitalClock-Lab'.
-	
-	a. To create a new folder: Right click somewhere on your Desktop, select 'New Folder'.
-
-	b. Type the name of your new folder, 'dev'.
-
-	c. Double click into your 'dev' folder.
-
-	d. Right click anywhere in the folder, select 'New Folder'. Name this folder 'JavaScript-DigitalClock-Lab'. This is your project folder for today's lab where you will be saving all of your work.
-
-2. Open Sublime Text and create a new file named 'index.html'.
-
-	a. Click File, select 'New File'.
-
-	b. Click File, select 'Save As...'
-
-	c. Type 'index.html' into the file name. Select the project folder you created in step 1. Click 'Save'. Note: If you cannot find the folder while initially trying to save, that is okay. Save it to the Desktop or another location where you can find the file. Open the 'JavaScript-DigitalClock-Lab' folder in another window and then click and drag the file into that folder.
-
-3. In your newly created html file, begin typing <html until you see a pop-up "html" and press Enter.
-
-4. After the opening head tag, create a reference to myClock.js, as seen below:
-	
-			<script type="text/javascript" src="js/myClock.js"></script>
-
-5. After the opening body tag, create a div tag with "clock" as its id, as seen below:
-
-			<div id="clock"></div>
-
-6. Within the opening body tag, we will call a function we will soon implement called 'startMyDigitalClock' as seen below:
-
-		<body onload="startMyDigitalClock()"> 
-
-7. Save the changes you have made in index.html. (Ctrl+S or File>Save)
-
-8. Create a new folder within your project folder named 'js'.
-
-9. In Sublime Text, create a new file inside your newly created 'js' folder named "myClock.js".
-
 
 ###DEPLOY & DEBUG: At any time during this lab, we can check if our code is working and debug within our browser by following the below steps
 
@@ -161,48 +119,18 @@ Tools Required: *Sublime Text Editor, Google Chrome*
 	b. Ensure all files are saved. 
 
 
-###PRETTIFICATION: Just for fun, lets add the below CSS to see how it changes the look and feel of our clock
+###STYLE YOUR CLOCK: Just for fun, lets add the below CSS to see how it changes the look and feel of our clock
 
-1. Create a new file called prettifyMyClock.css
+1. In your index.html, uncomment ONE of the style sheets by removing '!--' from the start of the tag and removing '--' from the end of the tag.
 
-2. Copy the below code into the file and save.
+	Example:
+	- Commented-Out Stylesheet:
+			<!--link href="./style/scrolling-clouds.css" type="text/css" rel="stylesheet"-->
+	- Uncommented:
+			<link href="./style/scrolling-clouds.css" type="text/css" rel="stylesheet">
 
-			body {
-    			background-color: white;
-			}
-
-			#clock {
-			    height: 500px;
-			    width: 800px;
-			    margin: auto;
-			    position: absolute;
-			    top: 0; left: 0; bottom: 0; right: 0;
-			    font-family: courier, monospace;
-			    text-align: center;
-			    color: #000066;
-			    font-size: 100px;
-			    font-weight: bold;
-			}
-
-			@keyframes animatedBackground {
-			    from { background-position: 0 0; }
-			    to { background-position: 100% 0; }
-			}
-
-			#animate-area   { 
-    			width: 100%; 
-   				height: 400px; 
-    			background-image: url(/images/clouds.jpeg);
-    			background-position: 0px 0px;
-    			background-repeat: repeat-x;
-
-   				animation: animatedBackground 40s linear infinite;
-			}
-
-3. Add the following line to the head of your index.html file and save.
-
-			<link href="./style/prettifyMyClock.css" type="text/css" rel="stylesheet">
-
+2. Save, and
+3. Refresh your browser
 
 
 The solution to this lab can be found on GitHub:
@@ -223,5 +151,5 @@ I hope you enjoyed learning the basics of JavaScript. Here are some ways you can
 
 	b. Free Animate Drawings using JS at KhanAcademy: https://www.khanacademy.org/computing/computer-programming/programming
 
-	c. Reccommended Reading: *JavaScript: The Good Parts*, Douglas Crockford
+	c. Recommended Reading: *JavaScript: The Good Parts*, Douglas Crockford
 

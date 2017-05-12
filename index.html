@@ -1,21 +1,24 @@
-<!-- STEP 1:  Save a new file as index.html
-
-STEP 2: Begin typing: <html     When html pops up, hit Enter -->
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My First Clock</title>
+	<!-- Makes a reference to the stylesheet
+	Remove the '!--' before 'link' on one of the below lines, save and refresh your browser -->
+	<!--link href="./style/prettifyMyClock.css" type="text/css" rel="stylesheet"-->
+	<link href="./style/deadpool-slide.css" type="text/css" rel="stylesheet">
 
-	<!-- Make a reference to the stylesheet (optional) -->
 
-	<!-- STEP 3: Make a reference to myClock.js -->
-
+	<!-- Makes a reference to myClock.js in the html -->
+	<script type="text/javascript" src="js/myClock.js"></script>
 </head>
 
-<!-- Add to the body tag, onload="startMyDigitalClock()", to have the function run everytime the html page is loaded-->
-<body>
-
-	<!-- STEP 4: Create a div with "clock" as the id -->
+<!-- When index.html is opened in the browser, our JavaScript startTime() function gets executed-->
+<body onload="startMyDigitalClock()"> 
+	
+	<div class="container">
+		<div id="animate-area"></div>	
+		<!-- Creates a div with "clock" as the id -->
+		<div id="clock"></div>
+	</div>
 
 
 </body>

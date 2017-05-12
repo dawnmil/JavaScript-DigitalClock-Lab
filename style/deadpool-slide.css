@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+}
+
+#clock {
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    position: relative;
+    top: 10; left: 0; bottom: 0; right: 0;
+    font-family: courier, monospace;
+    text-align: center;
+    color: #000066;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+@keyframes slideOver {
+    0% {
+        transform: translateX(-300px);
+        -webkit-transform: translateX(-300px);
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    } 
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(800px);
+        -webkit-transform: translateX(800px);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideOver {
+    0% {
+        opacity: 0;
+        transform: translateX(-300px);
+        -webkit-transform: translateX(-300px);
+    }
+    20% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(800px);
+        -webkit-transform: translateX(800px);
+    }
+}
+
+#animate-area   { 
+    position: absolute;
+    width: 100%; 
+    height: 900px; 
+    background-image: url(../images/deadpool_v3.png);
+    background-position: 0px 0px;
+    
+    animation: slideOver 9s 2s infinite Alternate both;
+    -webkit-animation: slideOver 9s 2s infinite Alternate both;
+}
